@@ -35,20 +35,20 @@ public class Converter {
         float output = Converter.rubleToEuro(input);
         boolean passed = expected == output;
         System.out.println("300 rubles are 3 euro. Test result : " + passed);
-        float inpu = 184;
-        float expecte = 2;
-        float outpu = Converter.rubleToDollar(inpu);
-        boolean passe = expecte == outpu;
-        System.out.println("184 rubles are 2 dollars. Test result : " + passe);
-        float inp = 5;
-        float expect = 500;
-        float outp = Converter.euroToRuble(inp);
-        boolean pass = expect == outp;
-        System.out.println("5 euro are 500 rubles. Test result : " + pass);
-        float in = 6;
-        float expec = 552;
-        float out = Converter.dollarToRuble(in);
-        boolean pas = expec == out;
-        System.out.println("6 dollars are 552 rubles. Test result : " + pas);
+        input = 184;
+        expected = 2;
+        output = Converter.rubleToDollar(input);
+        passed = expected == output;
+        System.out.println("184 rubles are 2 dollars. Test result : " + passed);
+        input = 5;
+        expected = 500;
+        output = Converter.euroToRuble(input);
+        passed = expected == output;
+        System.out.println("5 euro are 500 rubles. Test result : " + passed);
+        input = 6;
+        expected = 552;
+        output = Converter.dollarToRuble(input);
+        passed = expected == output;
+        System.out.println("6 dollars are 552 rubles. Test result : " + passed);
     }
 }
